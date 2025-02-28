@@ -1,0 +1,115 @@
+*{
+    font-family: cursive;
+}
+.nav-par:hover {
+    opacity: 1 !important;
+}
+
+button a:hover {
+    color: black !important;
+}
+
+button:hover {
+    background-color: aliceblue !important;
+    color: black !important;
+
+}
+
+.nav-link.active {
+    background-color: #ffcc00 !important;
+    color: black !important;
+}
+
+
+
+.nav-link {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    color: #ffcc00;
+}
+
+
+
+
+.cu-bg {
+    background-image: url('./images/image.png');
+    height: 700px;
+    background-size: 100% 100%;
+    position: relative;
+
+    h1 {
+        position: absolute;
+        top: 30%;
+        left: 51%;
+    }
+
+    h2 {
+        position: absolute;
+        top: 37%;
+        left: 47%;
+    }
+
+    button {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        font-size: x-large;
+    }
+
+    span {
+        position: absolute;
+        top: 93%;
+        left: 1%;
+        font-size: x-large;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .cu-bg {
+        background-image: url('./images/image.png');
+        height: 500px;
+        background-size: 100% 100%;
+        h1 {
+            left: 10%;
+        }
+
+        h2 {
+            left: 7%;
+        }
+
+        button {
+
+            left: 5%;
+            font-size: large;
+        }
+
+        span {
+
+            left: 1%;
+            font-size: large;
+        }
+    }
+    // 
+.coustam {
+    padding-top: 450px;
+}
+
+.navMenu {
+    text-align: center;
+}
+
+.bgimg {
+    background-image: url("https://www.w3schools.com/w3images/map.jpg");
+    height: 900px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+}
+
